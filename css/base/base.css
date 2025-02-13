@@ -1,0 +1,30 @@
+:root {
+  --accent: #ffd479;
+
+  --font-base: "Roboto", sans-serif;
+  --font-accent: "Bebas Neue", sans-serif;
+}
+
+body {
+  color: #fafaf5;
+
+  font-family: var(--font-base);
+  font-weight: 300;
+  background-color: #1f2a32;
+}
+
+a {
+  color: #fafaf5;
+}
+
+.container {
+  width: 100%;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-contact {
+  max-width: 615px;
+}
